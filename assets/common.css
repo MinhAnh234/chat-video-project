@@ -10,21 +10,30 @@ img:hover{
   cursor: pointer;
   
 }
-img {
-  width:40px !important;
-  height:40px;
+.control__img span{
+  display:inline-block;
+  height:44px;
+  width:44px;
   margin-left: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.col.s12 span:hover {
+  background-color: white;
+}
+img {
+  width:30px;
+  display:block;
+  padding-top:6px;
+  margin:0 auto;
+ 
   
 }
 .btn:hover {
   color:yellow !important;
 }
-img:hover {
-  background-color: white;
-  
-  border-radius: 5%;
-}
+
 .materialize-red-text {
   color: #e51c23 !important;
 }
